@@ -28,6 +28,8 @@ let allSymbols = "~!@#$%^&*";
 function generatePassword(){
     let genPassword = "";
     let allChars = "";
+  
+
 
     allChars  += lowercase.checked ? lowerChars : "";
     allChars  += uppercase.checked ? upperChars : "";
